@@ -143,8 +143,7 @@ textarea {
 .carousel-image-size {
     height: 450px !important;
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    
 }
 
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
@@ -842,6 +841,64 @@ background-blend-mode: saturation;
     color: black;
 }
 
+/*--------------------------------------------------------------------------------DISCOVER PAGE*/
+
+.carousel-image-size {
+    height: 450px !important;
+    width: 100%;
+  }
+  
+  .discover-container {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.discover-container-1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.discover-container-2 {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.discover-container-3 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+
+.discover-container-4 {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
 /*--------------------------------------------------------------------------------MEDIA QUERIES*/
 
 @media only screen and (min-width: 768px) {
@@ -1054,7 +1111,7 @@ background-blend-mode: saturation;
     .video-container {
         height: 100%;
         width: 100%;
-        background-image: url(../images/caleb-background.jpg);
+        background-image: url(../images/kings-live.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
         text-align: center;
@@ -1064,7 +1121,7 @@ background-blend-mode: saturation;
     .video-container-1 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/caleb-background.jpg);
+        background-image: url(../images/kings-live.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
         text-align: center;
@@ -1073,7 +1130,7 @@ background-blend-mode: saturation;
     .video-container-2 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/caleb-background.jpg);
+        background-image: url(../images/kings-live.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
         text-align: center;
@@ -1082,7 +1139,7 @@ background-blend-mode: saturation;
     .video-container-3 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/caleb-background.jpg);
+        background-image: url(../images/kings-live.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
         text-align: center;
@@ -1091,7 +1148,7 @@ background-blend-mode: saturation;
     .video-container-4 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/caleb-background.jpg);
+        background-image: url(../images/kings-live.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
         text-align: center;
@@ -1110,4 +1167,64 @@ background-blend-mode: saturation;
 .nav-color-darkgray {
     color:ghostwhite;
 }
+
+.carousel-image-size {
+    height: 450px !important;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius:5px;
+}
+
+.standard-color-style-2 {
+    color: ghostwhite;
+    letter-spacing: 5px;
+}
+
+.discover-container {
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/kol-o2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .discover-container-1 {
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/kol-o2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .discover-container-2 {
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/kol-o2.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .discover-container-3 {
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/kol-o2.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .discover-container-4 {
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/kol-o2.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
 }
