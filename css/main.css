@@ -107,7 +107,7 @@ a:hover {
 }
 
 .standard-color-style-3 {
-    color: ghostwhite;
+    color: grey;
     letter-spacing: 5px
 }
 
@@ -123,6 +123,8 @@ textarea {
 
 .fifty-height {
     height: 50px;
+    width:150px;
+    margin-top:10px;
 }
 
 .spacing {
@@ -131,18 +133,20 @@ textarea {
 }
 
 .center-align {
-    text-align:center;
+    text-align: center;
 }
 
 .margin-left-50 {
-    margin-left:50px;
+    margin-left: 50px;
 }
 
-.image-size {
-    height:450px !important;
+.carousel-image-size {
+    height: 450px !important;
     width: 100%;
-    margin-left:20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
 
 .homepage-ticket-btn {
@@ -153,7 +157,7 @@ textarea {
     background: ghostwhite;
     color: #777;
     cursor: pointer;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 .homepage-ticket-btn:hover {
@@ -184,7 +188,7 @@ textarea {
 .navbar {
     position: absolute;
     z-index: 3;
-    width: 100vw;
+    width: 98%;
     background-color: transparent;
     border: 0;
 }
@@ -200,6 +204,10 @@ textarea {
     letter-spacing: 10px;
     line-height: 2;
 }
+
+
+
+
 
 .discover-btn {
     border: 0;
@@ -291,6 +299,10 @@ textarea {
     color: ghostwhite;
 }
 
+.nav-color-darkgray {
+    color:darkgray;
+}
+
 .navbar-default .navbar-nav>li>a {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -308,6 +320,8 @@ textarea {
     color: #777;
     background-color: ghostwhite;
 }
+
+
 
 /*--------------------------------------------------------------------------------FOOTER*/
 
@@ -368,7 +382,7 @@ textarea {
 
 .homepage-video-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: ghostwhite;
 
 
@@ -443,7 +457,7 @@ textarea {
 .section-2-background {
     height: 100%;
     width: 100%;
-    background-image: url(../images/kol-green-wall.jpg);
+    background-image:url(../images/kol-green-wall.jpg);
     background-size: 100% 100%;
     position: relative;
 
@@ -535,7 +549,7 @@ textarea {
 .tour-location-header {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: ghostwhite;
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
@@ -545,8 +559,12 @@ textarea {
 .tour-location {
     height: 100%;
     width: 100%;
-    background-image: url(../images/dust.jpg);
-    background-size: 100% 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/ukflag2.jpg);
+    
+  background-size: 100% 100%;
+  
+    background-blend-mode: saturation;
+    opacity: 0.8;
     text-align: center;
     padding-top: 50px;
 }
@@ -554,8 +572,10 @@ textarea {
 .tour-location-2 {
     height: 100%;
     width: 100%;
-    background-image: url(../images/dust2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/france.jpg);
     background-size: 100% 100%;
+    background-blend-mode: saturation;
+    opacity: 0.8;
     text-align: center;
     padding-top: 50px;
 }
@@ -563,8 +583,10 @@ textarea {
 .tour-location-3 {
     height: 100%;
     width: 100%;
-    background-image: url(../images/dust3.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/italy.jpg);
     background-size: 100% 100%;
+    background-blend-mode: saturation;
+    opacity: 0.8;
     text-align: center;
     padding-top: 50px;
 }
@@ -572,8 +594,10 @@ textarea {
 .tour-location-4 {
     height: 100%;
     width: 100%;
-    background-image: url(../images/dust.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/spain.png);
     background-size: 100% 100%;
+    background-blend-mode: saturation;
+    opacity: 0.8;
     text-align: center;
     padding-top: 50px;
 }
@@ -581,8 +605,10 @@ textarea {
 .tour-location-5 {
     height: 100%;
     width: 100%;
-    background-image: url(../images/dust2.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/germany.jpg);
     background-size: 100% 100%;
+    background-blend-mode: saturation;
+    opacity: 0.8;
     text-align: center;
     padding-top: 50px;
 }
@@ -592,6 +618,7 @@ textarea {
     width: 100%;
     background-color: lightgray;
     margin-top: 10px;
+    margin-bottom: 10px;
     opacity: 0.9;
 }
 
@@ -606,9 +633,7 @@ textarea {
 }
 
 .background-wrapper-listen-small-1 {
-    background-image: url(../images/spotlight-4.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color:black;
 
 
 }
@@ -622,13 +647,14 @@ textarea {
     height: 80%;
     width: 80%;
     margin: 0 auto;
+    border-radius: 10px;
 
 }
 
 .album-container {
     height: 100%;
     width: 100%;
-
+background-color:ghostwhite;
     text-align: center;
     padding-top: 50px;
 }
@@ -639,14 +665,18 @@ textarea {
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/youthandyoungmanhood.jpg);
+    
 }
 
 .album-container-2 {
     height: 100%;
     width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/aha-shake.jpg);
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+    background-blend-mode: saturation;
 }
 
 .album-container-3 {
@@ -655,7 +685,9 @@ textarea {
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
-
+background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/because-of-the-times.jpg);
+background-blend-mode: saturation;
+    
 }
 
 .album-container-4 {
@@ -664,6 +696,9 @@ textarea {
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+    background-image:linear-gradient(rgba(0,10,0,0.9), rgba(0,10,0,0.9)), url(../images/only-by-the-night.jpg);
+background-blend-mode: saturation;
+    
 }
 
 .album-container-5 {
@@ -672,6 +707,9 @@ textarea {
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/come-around-sundown.jpg);
+background-blend-mode: saturation;
+    
 }
 
 .album-container-6 {
@@ -680,21 +718,43 @@ textarea {
     background-size: 100% 100%;
     text-align: center;
     padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/mechanical-bull.jpg);
+background-blend-mode: saturation;
+    
 }
 
 .album-container-7 {
     height: 100%;
     width: 100%;
     background-size: 100% 100%;
+    background-repeat: no-repeat;
     text-align: center;
     padding-top: 50px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/walls.jpg);
+background-blend-mode: saturation;
+    
 }
-
+.album-container-8 {
+    height: 100%;
+    width: 100%;
+    background-color:ghostwhite;
+    text-align: center;
+}
 .track-listing {
     text-decoration: none;
     text-align: left;
     font-size: 18px;
     font-weight: 900;
+    color:white;
+
+}
+
+.track-listing-2 {
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 900;
+    color:darkgray;
 
 }
 
@@ -702,11 +762,15 @@ textarea {
     height: 12px;
 }
 
+.discovery-text {
+    color:darkgray;
+}
+
 /*--------------------------------------------------------------------------------WATCH PAGE*/
 
 .iframe-video-wrapper {
     height: 320px;
-    width: 100%;
+    width: 95%;
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -717,8 +781,65 @@ textarea {
     background-repeat: no-repeat;
 }
 
+
+
+.video-container {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.video-container-1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.video-container-2 {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.video-container-3 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+
+.video-container-4 {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
 .video-text {
-    color:white;
+    color: darkgray;
+}
+
+.video-text-2 {
+    color: black;
 }
 
 /*--------------------------------------------------------------------------------MEDIA QUERIES*/
@@ -779,6 +900,7 @@ textarea {
         background-attachment: fixed;
         text-align: center;
         padding-top: 50px;
+        opacity: 1;
     }
     .tour-location-2 {
         height: 50vh;
@@ -788,6 +910,7 @@ textarea {
         background-attachment: fixed;
         text-align: center;
         padding-top: 50px;
+        opacity: 1;
     }
     .tour-location-3 {
         height: 50vh;
@@ -797,6 +920,7 @@ textarea {
         background-attachment: fixed;
         text-align: center;
         padding-top: 50px;
+        opacity: 1;
     }
     .tour-location-4 {
         height: 50vh;
@@ -806,6 +930,7 @@ textarea {
         background-attachment: fixed;
         text-align: center;
         padding-top: 50px;
+        opacity: 1;
     }
     .tour-location-5 {
         height: 50vh;
@@ -815,6 +940,7 @@ textarea {
         background-attachment: fixed;
         text-align: center;
         padding-top: 50px;
+        opacity: 1;
     }
 
 
@@ -899,7 +1025,7 @@ textarea {
         letter-spacing: 5px;
     }
     .album-box {
-        width: 50%;
+        width: 80%;
         height: 50vh;
         margin: 0 auto;
     }
@@ -908,8 +1034,18 @@ textarea {
         text-align: left;
         font-size: 16px;
         font-weight: 200;
+        color:white;
 
     }
+    
+    .track-listing-2 {
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+    color:white;
+
+}
 
     .standard-color-style-3 {
         color: #777;
@@ -961,4 +1097,17 @@ textarea {
         text-align: center;
         padding-top: 50px;
     }
+    .video-text {
+    color: white;
+}
+
+.video-text-2 {
+    color: white;
+}
+.discovery-text {
+    color:ghostwhite;
+}
+.nav-color-darkgray {
+    color:ghostwhite;
+}
 }
