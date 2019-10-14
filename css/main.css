@@ -101,6 +101,11 @@ a:hover {
     letter-spacing: 5px;
 }
 
+.scroll-text {
+    color:yellow;
+    letter-spacing: 5px;
+}
+
 .standard-color-style-2 {
     color: grey;
     letter-spacing: 5px;
@@ -1160,6 +1165,7 @@ background-blend-mode: saturation;
 
 .video-text-2 {
     color: white;
+
 }
 .discovery-text {
     color:ghostwhite;
