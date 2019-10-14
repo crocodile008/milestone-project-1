@@ -143,7 +143,7 @@ textarea {
 .carousel-image-size {
     height: 450px !important;
     width: 100%;
-    
+
 }
 
 /*------------------------------------------------------------------------------- GENERAL BUTTON STYLE*/
@@ -559,9 +559,9 @@ textarea {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/ukflag2.jpg);
-    
+
   background-size: 100% 100%;
-  
+
     background-blend-mode: saturation;
     opacity: 0.8;
     text-align: center;
@@ -665,7 +665,7 @@ background-color:ghostwhite;
     text-align: center;
     padding-top: 50px;
     background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/youthandyoungmanhood.jpg);
-    
+
 }
 
 .album-container-2 {
@@ -686,7 +686,7 @@ background-color:ghostwhite;
     padding-top: 50px;
 background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/because-of-the-times.jpg);
 background-blend-mode: saturation;
-    
+
 }
 
 .album-container-4 {
@@ -697,7 +697,7 @@ background-blend-mode: saturation;
     padding-top: 50px;
     background-image:linear-gradient(rgba(0,10,0,0.9), rgba(0,10,0,0.9)), url(../images/only-by-the-night.jpg);
 background-blend-mode: saturation;
-    
+
 }
 
 .album-container-5 {
@@ -708,7 +708,7 @@ background-blend-mode: saturation;
     padding-top: 50px;
     background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/come-around-sundown.jpg);
 background-blend-mode: saturation;
-    
+
 }
 
 .album-container-6 {
@@ -719,7 +719,7 @@ background-blend-mode: saturation;
     padding-top: 50px;
     background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/mechanical-bull.jpg);
 background-blend-mode: saturation;
-    
+
 }
 
 .album-container-7 {
@@ -731,7 +731,7 @@ background-blend-mode: saturation;
     padding-top: 50px;
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/walls.jpg);
 background-blend-mode: saturation;
-    
+
 }
 .album-container-8 {
     height: 100%;
@@ -847,7 +847,7 @@ background-blend-mode: saturation;
     height: 450px !important;
     width: 100%;
   }
-  
+
   .discover-container {
     height: 100%;
     width: 100%;
@@ -1094,7 +1094,7 @@ background-blend-mode: saturation;
         color:white;
 
     }
-    
+
     .track-listing-2 {
     text-decoration: none;
     text-align: left;
@@ -1111,7 +1111,7 @@ background-blend-mode: saturation;
     .video-container {
         height: 100%;
         width: 100%;
-        background-image: url(../images/kings-live.jpg);
+        background-image: url(../images/caleb-guitar.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
         text-align: center;
@@ -1121,7 +1121,7 @@ background-blend-mode: saturation;
     .video-container-1 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/kings-live.jpg);
+        background-image: url(../images/caleb-guitar.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
         text-align: center;
@@ -1130,7 +1130,7 @@ background-blend-mode: saturation;
     .video-container-2 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/kings-live.jpg);
+        background-image: url(../images/caleb-guitar.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
         text-align: center;
@@ -1139,7 +1139,7 @@ background-blend-mode: saturation;
     .video-container-3 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/kings-live.jpg);
+        background-image: url(../images/caleb-guitar.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
         text-align: center;
@@ -1148,7 +1148,7 @@ background-blend-mode: saturation;
     .video-container-4 {
         height: 100%;
         width: 100%;
-        background-image: url(../images/kings-live.jpg);
+        background-image: url(../images/caleb-guitar.jpg);
         background-attachment: fixed;
         background-size: 100% 100%;
         text-align: center;
